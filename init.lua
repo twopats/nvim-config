@@ -3,6 +3,7 @@ require('settings')
 require('maps')
 require('twopats-lsp')
 require('twopats-treesitter')
+require('mason-config')
 require("interface")
 
 --misc set ups

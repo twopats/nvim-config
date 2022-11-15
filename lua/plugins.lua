@@ -17,9 +17,13 @@ return require('packer').startup(function()
 	-- 		'williamboman/mason-lspconfig.nvim',
 	-- 	}
 	-- }
-	use 
-		"neovim/nvim-lspconfig"
 	
+	use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+}
+
 	use "terrortylor/nvim-comment"
 	use {
 		'nvim-treesitter/nvim-treesitter',
