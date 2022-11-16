@@ -1,0 +1,39 @@
+-- vim.opt.guicursor = ""
+--
+-- vim.opt.nu = true
+-- vim.opt.relativenumber = true
+-- vim.opt.tabstop = 4
+-- vim.opt.softtabstop = 4
+-- vim.opt.shiftwidth = 4
+-- vim.opt.expandtab = true
+-- vim.opt.hlsearch = true
+-- vim.opt.incsearch = true
+-- vim.opt.smartindent = true
+-- vim.opt.smartcase = true
+-- vim.opt.wrap = false
+-- vim.opt.cursorline = true
+-- vim.opt.cursorcolumn = true
+vim.wo.colorcolumn = '80'
+
+vim.o.background = 'light'
+vim.bo.filetype = 'lua'
+vim.o.relativenumber = true
+vim.o.smartcase = true
+-- vim.o.undodir = '~/.config/nvim/undodir'
+vim.o.scrolloff = 8
+vim.o.signcolumn = 'yes'
+vim.o.nu = true
+vim.o.incsearch = true
+vim.o.cursorline = true
+vim.o.syntax = 'on'
+vim.o.backup = false
+vim.o.shiftwidth = 2
+vim.o.tabstop = 2
+vim.o.wrap = true
+-- vim.o.undofile = true
+vim.o.ignorecase = true
+vim.o.swapfile = false
+vim.o.completeopt = menu, menuone, noselect
+vim.o.cursorcolumn = true
+vim.opt.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]]) --colorscheme command
