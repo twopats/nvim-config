@@ -9,6 +9,7 @@ return require('packer').startup(function()
 	use 'gruvbox-community/gruvbox'
 	use 'junegunn/fzf'
 	use 'junegunn/fzf.vim'
+	use "nvim-lua/plenary.nvim"
 	-- use {
 	-- 	'junnplus/lsp-setup.nvim',
 	-- 	requires = {
@@ -43,7 +44,10 @@ return require('packer').startup(function()
 	use 'ThePrimeagen/vim-be-good'
 
 
-	use('prettier/vim-prettier', { ['do'] = 'yarn install --frozen-lockfile --production' })
+	-- use('prettier/vim-prettier', { ['do'] = 'yarn install --frozen-lockfile --production' })
+	use('MunifTanjim/prettier.nvim')
+	use('jose-elias-alvarez/null-ls.nvim')
+
 
 	use {
 		'romgrk/barbar.nvim',
